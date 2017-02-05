@@ -1,6 +1,7 @@
 
 import {ImportedPackageExpression, TranspileOptions, IResult} from 'ceveral-compiler'
 import {GolangVisitor} from './visitor'
+export * from './visitor';
 
 export default {
 	name: 'Golang',

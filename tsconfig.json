@@ -6,6 +6,7 @@
         "sourceMap": false,
         "outDir": "lib",
         "noUnusedLocals": true,
-        "noUnusedParameters": true
+        "noUnusedParameters": true,
+        "declaration": true
     }
 }
