@@ -58,7 +58,7 @@ export class GolangVisitor extends BaseVisitor {
         let tagStr = '';
         if (gotags) {
             if (isStringArray(gotags)) {
-                gotags = gotags.map(m => `${m}:"${name},omitempty"`);
+                gotags = gotags.map(m => `${m}:"${name}"`);
             } else if (typeof gotags === 'object') {
                 let tmp = [];
                 for (let key in gotags) {
